@@ -3,7 +3,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f4f4f4;
+  background-color: #f8f8f8;
+  color: #333;
 }
 
 .container {
@@ -48,6 +49,11 @@ a {
 
 .hero h1 {
   font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
 }
 
 .dark-bg {
@@ -62,6 +68,16 @@ a {
 
 section {
   padding: 4em 0;
+}
+
+.portfolio-item {
+  margin-bottom: 40px;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 footer {
